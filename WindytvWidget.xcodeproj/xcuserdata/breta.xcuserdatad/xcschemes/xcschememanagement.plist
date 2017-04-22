@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TodayExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WindytvWidget.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>BA130A571EAB337F00CBCC7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA130A6E1EAB34EC00CBCC7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

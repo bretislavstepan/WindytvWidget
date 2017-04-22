@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="12118"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TodayViewController" customModule="TodayExtension" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="lJ2-Qb-Cnb"/>
+                <outlet property="webView" destination="vHD-NV-apJ" id="P4N-Kn-rXy"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView simulatedAppContext="notificationCenter" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <subviews>
+                <wkWebView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vHD-NV-apJ">
+                    <rect key="frame" x="6" y="0.0" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="QEi-mC-a7W"/>
+                    </constraints>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vHD-NV-apJ" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="6" id="0df-od-b6e"/>
+                <constraint firstAttribute="trailing" secondItem="vHD-NV-apJ" secondAttribute="trailing" constant="14" id="4Oc-Fh-Mlq"/>
+                <constraint firstItem="vHD-NV-apJ" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="OyO-rt-wgG"/>
+                <constraint firstAttribute="bottom" secondItem="vHD-NV-apJ" secondAttribute="bottom" id="agp-im-97m"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="149"/>
+        </customView>
+    </objects>
+</document>

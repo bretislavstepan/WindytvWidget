@@ -11,7 +11,36 @@
 		BA130A5E1EAB337F00CBCC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130A5D1EAB337F00CBCC7A /* ViewController.swift */; };
 		BA130A601EAB337F00CBCC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA130A5F1EAB337F00CBCC7A /* Assets.xcassets */; };
 		BA130A631EAB337F00CBCC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA130A611EAB337F00CBCC7A /* Main.storyboard */; };
+		BA130A721EAB34EC00CBCC7A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA130A711EAB34EC00CBCC7A /* NotificationCenter.framework */; };
+		BA130A771EAB34EC00CBCC7A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA130A761EAB34EC00CBCC7A /* TodayViewController.swift */; };
+		BA130A7A1EAB34EC00CBCC7A /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA130A781EAB34EC00CBCC7A /* TodayViewController.xib */; };
+		BA130A7E1EAB34EC00CBCC7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA130A7C1EAB34EC00CBCC7A /* InfoPlist.strings */; };
+		BA130A811EAB34EC00CBCC7A /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA130A6F1EAB34EC00CBCC7A /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA130A7F1EAB34EC00CBCC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA130A501EAB337F00CBCC7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA130A6E1EAB34EC00CBCC7A;
+			remoteInfo = TodayExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA130A851EAB34EC00CBCC7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA130A811EAB34EC00CBCC7A /* TodayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BA130A581EAB337F00CBCC7A /* WindytvWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindytvWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +49,14 @@
 		BA130A5F1EAB337F00CBCC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA130A621EAB337F00CBCC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA130A641EAB337F00CBCC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA130A6A1EAB341300CBCC7A /* WindytvWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WindytvWidget.entitlements; sourceTree = "<group>"; };
+		BA130A6F1EAB34EC00CBCC7A /* TodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA130A711EAB34EC00CBCC7A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BA130A751EAB34EC00CBCC7A /* TodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodayExtension.entitlements; sourceTree = "<group>"; };
+		BA130A761EAB34EC00CBCC7A /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BA130A791EAB34EC00CBCC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		BA130A7B1EAB34EC00CBCC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA130A7D1EAB34EC00CBCC7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +67,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA130A6C1EAB34EC00CBCC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA130A721EAB34EC00CBCC7A /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				BA130A5A1EAB337F00CBCC7A /* WindytvWidget */,
+				BA130A731EAB34EC00CBCC7A /* TodayExtension */,
+				BA130A701EAB34EC00CBCC7A /* Frameworks */,
 				BA130A591EAB337F00CBCC7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				BA130A581EAB337F00CBCC7A /* WindytvWidget.app */,
+				BA130A6F1EAB34EC00CBCC7A /* TodayExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +100,7 @@
 		BA130A5A1EAB337F00CBCC7A /* WindytvWidget */ = {
 			isa = PBXGroup;
 			children = (
+				BA130A6A1EAB341300CBCC7A /* WindytvWidget.entitlements */,
 				BA130A5B1EAB337F00CBCC7A /* AppDelegate.swift */,
 				BA130A5D1EAB337F00CBCC7A /* ViewController.swift */,
 				BA130A5F1EAB337F00CBCC7A /* Assets.xcassets */,
@@ -59,6 +108,34 @@
 				BA130A641EAB337F00CBCC7A /* Info.plist */,
 			);
 			path = WindytvWidget;
+			sourceTree = "<group>";
+		};
+		BA130A701EAB34EC00CBCC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA130A711EAB34EC00CBCC7A /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA130A731EAB34EC00CBCC7A /* TodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BA130A761EAB34EC00CBCC7A /* TodayViewController.swift */,
+				BA130A781EAB34EC00CBCC7A /* TodayViewController.xib */,
+				BA130A7B1EAB34EC00CBCC7A /* Info.plist */,
+				BA130A7C1EAB34EC00CBCC7A /* InfoPlist.strings */,
+				BA130A741EAB34EC00CBCC7A /* Supporting Files */,
+			);
+			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+		BA130A741EAB34EC00CBCC7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA130A751EAB34EC00CBCC7A /* TodayExtension.entitlements */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,15 +148,34 @@
 				BA130A541EAB337F00CBCC7A /* Sources */,
 				BA130A551EAB337F00CBCC7A /* Frameworks */,
 				BA130A561EAB337F00CBCC7A /* Resources */,
+				BA130A851EAB34EC00CBCC7A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BA130A801EAB34EC00CBCC7A /* PBXTargetDependency */,
 			);
 			name = WindytvWidget;
 			productName = WindytvWidget;
 			productReference = BA130A581EAB337F00CBCC7A /* WindytvWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BA130A6E1EAB34EC00CBCC7A /* TodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA130A821EAB34EC00CBCC7A /* Build configuration list for PBXNativeTarget "TodayExtension" */;
+			buildPhases = (
+				BA130A6B1EAB34EC00CBCC7A /* Sources */,
+				BA130A6C1EAB34EC00CBCC7A /* Frameworks */,
+				BA130A6D1EAB34EC00CBCC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExtension;
+			productName = TodayExtension;
+			productReference = BA130A6F1EAB34EC00CBCC7A /* TodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -92,6 +188,15 @@
 				ORGANIZATIONNAME = "Břetislav Štěpán";
 				TargetAttributes = {
 					BA130A571EAB337F00CBCC7A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					BA130A6E1EAB34EC00CBCC7A = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				BA130A571EAB337F00CBCC7A /* WindytvWidget */,
+				BA130A6E1EAB34EC00CBCC7A /* TodayExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +228,15 @@
 			files = (
 				BA130A601EAB337F00CBCC7A /* Assets.xcassets in Resources */,
 				BA130A631EAB337F00CBCC7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA130A6D1EAB34EC00CBCC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA130A7A1EAB34EC00CBCC7A /* TodayViewController.xib in Resources */,
+				BA130A7E1EAB34EC00CBCC7A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +252,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA130A6B1EAB34EC00CBCC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA130A771EAB34EC00CBCC7A /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA130A801EAB34EC00CBCC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA130A6E1EAB34EC00CBCC7A /* TodayExtension */;
+			targetProxy = BA130A7F1EAB34EC00CBCC7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BA130A611EAB337F00CBCC7A /* Main.storyboard */ = {
@@ -146,6 +277,22 @@
 				BA130A621EAB337F00CBCC7A /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA130A781EAB34EC00CBCC7A /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA130A791EAB34EC00CBCC7A /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		BA130A7C1EAB34EC00CBCC7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA130A7D1EAB34EC00CBCC7A /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,7 +393,9 @@
 		BA130A681EAB337F00CBCC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WindytvWidget/WindytvWidget.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WindytvWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -259,12 +408,42 @@
 		BA130A691EAB337F00CBCC7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WindytvWidget/WindytvWidget.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WindytvWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cz.bretislavstepan.WindytvWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA130A831EAB34EC00CBCC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.bretislavstepan.WindytvWidget.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA130A841EAB34EC00CBCC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.bretislavstepan.WindytvWidget.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -286,6 +465,14 @@
 			buildConfigurations = (
 				BA130A681EAB337F00CBCC7A /* Debug */,
 				BA130A691EAB337F00CBCC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA130A821EAB34EC00CBCC7A /* Build configuration list for PBXNativeTarget "TodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA130A831EAB34EC00CBCC7A /* Debug */,
+				BA130A841EAB34EC00CBCC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
