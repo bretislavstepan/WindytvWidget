@@ -1,4 +1,4 @@
 /* Display name and description for this extension. */
-"CFBundleDisplayName" = "Windytv widget";
+"CFBundleDisplayName" = "Windytv";
 "com.apple.notificationcenter.widget.description" = "";
 
