@@ -1,5 +1,5 @@
-# Windytv Widget
+# Windy Widget
 
-A widget for showing Windytv in the Today View in macOS Sierra's Notification Center.
+A widget for showing [Windy.com](https://windy.com) in the Today View in macOS Notification Center.
 
 ![Widget screenshot](assets/screenshot.png)
